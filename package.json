@@ -1,6 +1,6 @@
 {
   "name": "@hexlet/code",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "[![Actions Status](https://github.com/frunastya/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/frunastya/frontend-project-44/actions)",
   "homepage": "https://github.com/frunastya/frontend-project-44#readme",
   "bugs": {
@@ -19,5 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
