@@ -29,7 +29,14 @@
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=frunastya_frontend-project-44&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=frunastya_frontend-project-44)
 
 ## 🚀 About
-Brain Games - набор консольных игр для развития логического мышления.
+Brain Games - a collection of console games for brain training.
+
+### Games:
+1. **brain-games** - Simple greeting and introduction
+2. **brain-even** - Check if number is even or odd
+
+## 🎥 Brain Even Game Demo
+[![asciicast](https://asciinema.org/a/tP2X4aY5W8TsFSaE.svg)](https://asciinema.org/a/tP2X4aY5W8TsFSaE)
 
 ## 📦 Installation
 ```bash
@@ -39,6 +46,8 @@ make install
 ```
 
 ## 🎮 Usage
+
 ```bash
 make brain-games
+make brain-even
 ```
