@@ -30,11 +30,27 @@
 Brain Games - a collection of console games for brain training.
 
 ### Games:
-1. **brain-games** - Simple greeting and introduction
-2. **brain-even** - Check if number is even or odd
+1. **brain-even** - Check if number is even or odd
+2. **brain-calc** - Solve arithmetic expressions (e.g., "5 + 3")
+3. **brain-gcd** - Find the greatest common divisor of two numbers
+4. **brain-prime** - Determine if a number is prime
+5. **brain-progression** - Find the missing number in a numerical progression
 
-## 🎥 Brain Even Game Demo
-[![asciicast](https://asciinema.org/a/tP2X4aY5W8TsFSaE.svg)](https://asciinema.org/a/tP2X4aY5W8TsFSaE)
+## 🎥 Demos
+### Brain Even
+[![asciicast](https://asciinema.org/a/NWJOrBcoBgikfuxc.svg)](https://asciinema.org/a/NWJOrBcoBgikfuxc)
+
+### Brain Calc
+[![asciicast](https://asciinema.org/a/Q2XGhQhsrltlQEjN.svg)](https://asciinema.org/a/Q2XGhQhsrltlQEjN)
+
+### Brain GCD
+[![asciicast](https://asciinema.org/a/3UescdoFj4CGlDXK.svg)](https://asciinema.org/a/3UescdoFj4CGlDXK)
+
+### Brain Prime
+[![asciicast](https://asciinema.org/a/4XQCH9bcrHRArl62.svg)](https://asciinema.org/a/4XQCH9bcrHRArl62)
+
+### Brain Progression
+[![asciicast](https://asciinema.org/a/6QPgIIJCmI8s3Ods.svg)](https://asciinema.org/a/6QPgIIJCmI8s3Ods)
 
 ## 📦 Installation
 ```bash
@@ -44,8 +60,10 @@ make install
 ```
 
 ## 🎮 Usage
-
 ```bash
-make brain-games
-make brain-even
+brain-even
+brain-calc
+brain-gcd
+brain-prime
+brain-progression
 ```
