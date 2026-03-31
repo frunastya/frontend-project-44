@@ -12,9 +12,12 @@ const generateRound = () => {
 
   let correctAnswer
   switch (operator) {
-    case '+': correctAnswer = a + b; break
-    case '-': correctAnswer = a - b; break
-    case '*': correctAnswer = a * b; break
+    case '+': correctAnswer = a + b
+      break
+    case '-': correctAnswer = a - b
+      break
+    case '*': correctAnswer = a * b
+      break
   }
 
   return [question, String(correctAnswer)]

@@ -1,6 +1,5 @@
 import playGame from '../index.js'
 
-
 const getProgression = () => {
   const length = Math.floor(Math.random() * 6) + 5
   const start = Math.floor(Math.random() * 100)
@@ -11,7 +10,7 @@ const getProgression = () => {
     array.push(currentElement)
   }
 
-return array
+  return array
 }
 
 const generateRound = () => {
@@ -22,7 +21,7 @@ const generateRound = () => {
 
   const question = progression.join(' ')
 
-return [question, correctAnswer]
+  return [question, correctAnswer]
 }
 
 const gameDescription = 'What number is missing in the progression?'

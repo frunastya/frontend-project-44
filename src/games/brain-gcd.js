@@ -18,11 +18,10 @@ const generateRound = () => {
       a = b
       b = result
     }
-  correctAnswer = String(a)
+    correctAnswer = String(a)
   }
 
-
-return [question, correctAnswer]
+  return [question, correctAnswer]
 }
 
 const gameDescription = 'Find the greatest common divisor of given numbers.'
