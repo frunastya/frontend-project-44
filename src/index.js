@@ -1,9 +1,9 @@
 import readlineSync from 'readline-sync'
+import { helloFunction } from './cli.js'
 
 const playGame = (generateRound, gameDescription) => {
-  console.log('Welcome to the Brain Games!')
-  const name = readlineSync.question('May I have your name? ')
-  console.log(`Hello, ${name}!`)
+  const name = helloFunction()
+
   console.log(gameDescription)
 
   let countCorrectAnswer = 0
