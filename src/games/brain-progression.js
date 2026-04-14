@@ -1,9 +1,10 @@
 import playGame from '../index.js'
+import { getRandomNumber } from '../random.js'
 
 const getProgression = () => {
-  const length = Math.floor(Math.random() * 6) + 5
-  const start = Math.floor(Math.random() * 100)
-  const step = Math.floor(Math.random() * 10) + 1
+  const length = getRandomNumber(5, 10)
+  const start = getRandomNumber(1, 50)
+  const step = getRandomNumber(1, 10)
   let array = []
   for (let index = 0; index < length; index++) {
     const currentElement = start + index * step

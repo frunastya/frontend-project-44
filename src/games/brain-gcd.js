@@ -1,10 +1,9 @@
 import playGame from '../index.js'
-
-const getRandomNumber = () => Math.floor(Math.random() * 101)
+import { getRandomNumber } from '../random.js'
 
 const generateRound = () => {
-  let a = getRandomNumber()
-  let b = getRandomNumber()
+  let a = getRandomNumber(1, 50)
+  let b = getRandomNumber(1, 50)
   const question = `${a} ${b}`
   let correctAnswer
 

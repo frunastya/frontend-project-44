@@ -1,6 +1,6 @@
 import playGame from '../index.js'
+import { getRandomNumber } from '../random.js'
 
-const getRandomNumber = () => Math.floor(Math.random() * 101)
 const operators = ['+', '-', '*']
 const getRandomOperator = () => operators[Math.floor(Math.random() * operators.length)]
 

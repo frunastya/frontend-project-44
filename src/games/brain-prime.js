@@ -1,4 +1,5 @@
 import playGame from '../index.js'
+import { getRandomNumber } from '../random.js'
 
 const isPrime = (number) => {
   if (number < 2) {
@@ -18,8 +19,6 @@ const isPrime = (number) => {
 
   return true
 }
-
-const getRandomNumber = () => Math.floor(Math.random() * 100) + 1
 
 const generateRound = () => {
   const num = getRandomNumber()

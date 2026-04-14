@@ -1,9 +1,10 @@
 import playGame from '../index.js'
+import { getRandomNumber } from '../random.js'
 
 const isEven = number => number % 2 === 0
 
 const generateRound = () => {
-  const randomNumber = Math.floor(Math.random() * 100) + 1
+  const randomNumber = getRandomNumber()
   const correctAnswer = isEven(randomNumber) ? 'yes' : 'no'
   const question = randomNumber
 
